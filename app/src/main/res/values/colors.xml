@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333</color>
+    <color name="colorPrimaryDark">#222</color>
+    <color name="colorPrimaryLight">#555</color>
+    <color name="textColor">#FFF</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#C33</color>
+    <color name="colorAction">#4CAF50</color>
+    <color name="colorAction2">#ba7d04</color>
+    <color name="colorHint">#bbb</color>
+    <color name="ripple_effect1">#6CD571</color>
+    <color name="ripple_effect2">#D7991D</color>
+    <color name="colorRandom">#Df89</color>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/servicePageBg"
+    tools:context=".ServicePage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="64dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/side_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="582dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/desc_side_icon"
+            android:scaleX="0.65"
+            android:scaleY="0.6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_logo1" />
+
+        <TextView
+            android:id="@+id/text_contacts"
+            android:layout_width="80dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="120dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:rotation="270"
+            android:text="@string/text_contacts"
+            android:textColor="@color/colorHint"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/side_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_about_us"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:rotation="270"
+            android:text="@string/text_about_us"
+            android:textColor="@color/colorHint"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_contacts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="80dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:rotation="270"
+            android:text="@string/text_home"
+            android:textColor="@color/colorHint"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_about_us"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/servicePageImage"
+        android:layout_width="347dp"
+        android:layout_height="246dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_service_page_design" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorHint"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/servicePageImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

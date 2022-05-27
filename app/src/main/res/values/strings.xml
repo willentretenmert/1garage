@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">1Garage</string>
+    <string name="example">Example 123</string>
+    <string name="app_name1">1</string>
+    <string name="app_name2">Garage</string>
+    <string name="desc_logo">asd</string>
+    <!--Registration strings-->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="action_register">Register</string>
+    <!--Description strings-->
+    <string name="desc_side_icon">SidebarIcon</string>
+    <string name="desc_filter_rectangle">FilterBarShape</string>
+    <!--Main activity button strings-->
+    <string name="text_contacts">Contacts</string>
+    <string name="text_about_us">About Us</string>
+    <string name="text_home">Home</string>
+    <!--Service card strings-->
+    <string name="service_duration">Service duration:</string>
+    <string name="service_price">Price:</string>
+</resources>
