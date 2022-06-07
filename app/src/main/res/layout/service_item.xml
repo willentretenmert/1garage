@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="20dp"
-        app:contentPaddingBottom="20dp"
+        app:contentPaddingBottom="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,15 +27,16 @@
                 android:id="@+id/serviceImage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_service_card1"
-                android:contentDescription="@string/app_name" />
+                android:contentDescription="@string/app_name"
+                android:transitionName="serviceImage"
+                app:srcCompat="@drawable/ic_service_card1" />
             <TextView
                 android:id="@+id/serviceTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/example"
-                android:textColor="@color/colorHint"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:fontFamily="@font/roboto_bold"/>
 
@@ -48,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/service_duration"
-                    android:textColor="@color/colorHint"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:fontFamily="@font/roboto_light"/>
 
@@ -59,7 +60,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/roboto_light"
                     android:text="@string/service_price"
-                    android:textColor="@color/colorHint"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
@@ -74,7 +75,7 @@
                     android:fontFamily="@font/roboto_medium"
                     android:layout_marginStart="10dp"
                     android:text="@string/example"
-                    android:textColor="@color/colorHint"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <TextView
@@ -84,8 +85,8 @@
                     android:layout_marginStart="68dp"
                     android:fontFamily="@font/roboto_medium"
                     android:text="@string/example"
-                    android:textColor="@color/colorHint"
-                    android:textSize="14sp" />
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
 

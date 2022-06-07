@@ -1,18 +1,35 @@
 package com.example.myapplication2.models;
 
 public class Service {
-    private int id;
-    private String img, title, duration, price, color;
+    private int id, category;
+    private String img, title, duration, price, color, text;
 
-    public Service(int id, String img, String title, String duration, String price, String color) {
+    public Service(int id, String img, String title, String duration, String price, String color, String text, int category) {
         this.id = id;
         this.img = img;
         this.title = title;
         this.duration = duration;
         this.price = price;
         this.color = color;
+        this.text = text;
+        this.category = category;
     }
 
+    public int getCategory() {
+        return category;
+    }
+
+    public void setCategory(int category) {
+        this.category = category;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
 
     public int getId() {
         return id;

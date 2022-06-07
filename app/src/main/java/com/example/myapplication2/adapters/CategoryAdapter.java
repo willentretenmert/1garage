@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myapplication2.MainActivity;
 import com.example.myapplication2.R;
 import com.example.myapplication2.models.Category;
 
@@ -33,9 +34,14 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
     @Override
     public void onBindViewHolder(@NonNull CategoryViewHolder holder, int position) {
-
         holder.filter_name.setText(categories.get(position).getTitle());
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity.showServicesByCategory(categories.get(position).getId());
+            }
+        });
     }
 
     @Override

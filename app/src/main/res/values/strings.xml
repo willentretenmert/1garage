@@ -24,4 +24,13 @@
     <!--Service card strings-->
     <string name="service_duration">Service duration:</string>
     <string name="service_price">Price:</string>
+    <!--Service page desc-->
+    <string name="long_text">AsdASDasdas iuhpuh asp, a, rafsdolij;iomi. aoidjpaiofjmogjio[oFMKLAmf[omokafpomkj ASDasdas iuhpuh asp, a, rafsdolij;iomi. aoidj 1235fuijp!!!asdzxc</string>
+    <string name="big_button_text">Add to cart</string>
+    <string name="basic_service_text">Basic car maintenance includes replacement of consumables, light repairs and replacement of body parts. The cost of the service and the terms of repair are discussed directly in the service in your presence.</string>
+    <string name="adv_service_text"></string>
+    <string name="body_paint_text"></string>
+    <string name="parts_paint_text"></string>
+    <string name="cleaning_text"></string>
+    <string name="washing_text"></string>
 </resources>

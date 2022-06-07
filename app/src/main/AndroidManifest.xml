@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication2">
         <activity
+            android:name=".OrderPage"
+            android:exported="false" />
+        <activity
             android:name=".ServicePage"
             android:exported="false" />
         <activity
